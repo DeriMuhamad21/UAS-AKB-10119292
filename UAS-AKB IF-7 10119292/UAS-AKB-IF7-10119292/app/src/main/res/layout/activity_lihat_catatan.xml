@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LihatCatatanActivity">
+
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="judul"
+        android:paddingVertical="40dp"
+        android:textAlignment="center"
+        android:paddingHorizontal="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvIsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="isi isi isi isi isi isi isi isi isi isi isi isi isi isi isi isi si
+ isi isi isi isi isi isi isi isi isi isi isi isi si isi isi isi isi isi isi isi isi isi isi isi isi si isi isi isi isi isi isi isi isi isi isi isi isi si"
+        android:textAlignment="center"
+        android:paddingHorizontal="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:visibility="invisible"
+        />
+    //10119292 Deri Muhamad Handipa If-7
+</LinearLayout>

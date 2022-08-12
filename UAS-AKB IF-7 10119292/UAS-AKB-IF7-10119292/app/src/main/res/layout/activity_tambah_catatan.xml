@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahCatatanActivity">
+
+    <EditText
+        android:id="@+id/txtJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="buat judul"
+        android:inputType="text"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingVertical="20dp"
+        />
+
+    <EditText
+        android:id="@+id/txtIsi"
+        android:layout_width="match_parent"
+        android:layout_height="532dp"
+        android:hint="tulis sesuatu..."
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:layout_below="@+id/txtJudul"
+        android:layout_margin="10dp"
+        android:paddingTop="10dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnSimpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_check_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        />
+    //10119292 Deri Muhamad Handipa If-7
+
+
+</RelativeLayout>
